@@ -1,0 +1,135 @@
+ /*this this use for side bar styles*/
+ #sidebar {
+    background-color: #c7c6d3;
+    padding:10px;
+    margin-right: 1150px;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+   
+     }
+
+#sidebar h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+ 
+ }
+
+#sidebar ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+
+ }
+
+#sidebar li {
+  margin-bottom: 10px;
+
+ }
+
+#sidebar a {
+ color: #333;
+ text-decoration: none;
+ transition: color 0.2s;
+}
+
+#sidebar a:hover {
+  color: #f1660a;
+}
+
+/*this is used for header styles*/
+header {
+  background-color: #7e63f7;
+  padding: 30px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+
+ }  
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+
+nav li {
+   display: inline-block;
+   margin-right: 20px;
+  }
+
+nav a {
+ color: #333;
+ text-decoration: none;
+}
+
+/*this use for search bar*/
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  }
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 300px;
+ }
+
+button[type="submit"] {
+   background-color: #0e53bb;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   margin-left: 10px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+
+/*this is used for footer styles*/
+footer {
+  background-color: #7e63f7;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+
+footer p {
+   margin-bottom: 10px;
+ }
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+ /*create content */
+article {
+    margin-left: 220px;
+    padding: 20px;
+    float: center;
+    width: 90%;
+    background-color: #f1f1f1;
+    height: 500px; /* only for demonstration, should be removed */
+}
